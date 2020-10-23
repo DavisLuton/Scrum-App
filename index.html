@@ -3,10 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Scrum</title>
 </head>
-<body>
+    <div class="page-container">
+        <header class="app-header">
+            <h1 class="logo">Scrum App</h1>
+            <h3 class="sub-header">Manage Your Tasks!</h3>
+        </header>
+
+        <div class="board">
+            <div class="card task-list" id="to-do">
+                <div class="task">
+                    <h4 class="task-title">Test Task</h4>
+                    <p class="task-description"></p>
+                </div>
+            </div>
+            <div class="card task-list" id="in-progress">
+
+            </div>
+            <div class="card task-list" id="done">
+
+            </div>
+
+            
+        </div>
+        <div class="app-controls">
+            <button id="new-task">Add New Task</button>
+        </div>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>

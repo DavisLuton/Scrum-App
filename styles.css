@@ -1,0 +1,47 @@
+body {
+    margin:0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.page-container {
+    padding: 0 12em 0 12em;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;   
+    background-color: FE7676;
+}
+
+.card {
+    border-radius: 50px;
+    background: #ffffff;
+    box-shadow:  5px 5px 15px #ebebeb, 
+                 -5px -5px 15px #ffffff;
+}
+
+.board { 
+    margin:0 1em 0 1em;
+    flex-grow: 90;
+    display: flex;
+}
+
+.task-list {
+
+    padding: 0 ;
+    flex-grow: 1;
+    flex-basis:30%;
+    margin: 0 5em 1em 0;
+}
+
+.task {
+    margin:0;
+    display: flex;
+}
+
+.app-controls {
+    flex-grow: 10;
+    margin: 2em 0 2em 0
+}
